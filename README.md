@@ -1,7 +1,7 @@
 # Parcial 1 Fundamentos de programacion 
 ## Ejercicio 1
 Escriba un algoritmo que lea 2 números e imprima la suma de ellos si los dos números son pares o el producto si uno o ambos números son impar.
-```
+```py
 print("Por favor solo dijite numeros enteros")
 numero1=int(input("Dijite el primero numero: "))
 numero2=int(input("Dijite el segundo numero: "))
@@ -23,7 +23,7 @@ Para los demás tamaños no se ofrece descuento.
 
 Desarrollar el algoritmo para este problema.
 
-```
+```py
 tamaño=int(input("Ingrese el tamaño del televisor en pulgadas: "))
 
 #Descuentos
