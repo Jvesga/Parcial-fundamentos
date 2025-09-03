@@ -1,8 +1,20 @@
 # Parcial 1 Fundamentos de programacion 
 ## Ejercicio 1
 Escriba un algoritmo que lea 2 números e imprima la suma de ellos si los dos números son pares o el producto si uno o ambos números son impar.
+```
+print("Por favor solo dijite numeros enteros")
+numero1=int(input("Dijite el primero numero: "))
+numero2=int(input("Dijite el segundo numero: "))
 
-<img width="524" height="234" alt="image" src="https://github.com/user-attachments/assets/50cb3abe-1500-4f26-ac51-878ba9351086" />
+if (numero1 % 2 != 0) or (numero2 % 2 != 0):
+    producto=(numero1 * numero2) 
+    print("uno de los numeros ingresados es impar")
+    print("El producto de los numeros ingresados es: " , producto)
+else:
+    sumar = numero1 + numero2
+    print("Los numeros ingresados son pares")
+    print("La suma de los numero ingresados es de: ", sumar)
+```
 
 ## Ejercicio 2
 Una tienda de electrónica está ofreciendo un descuento en los televisores. El descuento ofrecido se basa en el tamaño del televisor. 
@@ -11,7 +23,20 @@ Para los demás tamaños no se ofrece descuento.
 
 Desarrollar el algoritmo para este problema.
 
-<img width="654" height="241" alt="image" src="https://github.com/user-attachments/assets/6e90f272-17e2-4616-a469-579d92f0544a" />
+```
+tamaño=int(input("Ingrese el tamaño del televisor en pulgadas: "))
+
+#Descuentos
+
+if (tamaño == 14):
+    print("El descuento ofrecido para este tamaño de televisor es del 10%.")
+
+elif (tamaño== 21):
+    print("El descuento ofrecido para este tamaño de televisor es del 20%.")
+    
+else:
+    print("Para este tamaño de televisor no se ofrece ningun tipo de descuento.")
+```
 
 ## Ejercicio 3
 ¿Qué valor se almacena en las variables "y" (de tipo int) y "x" (de tipo float) al ejecutar cada una de estas sentencias?
