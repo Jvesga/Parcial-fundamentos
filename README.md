@@ -14,7 +14,7 @@ Desarrollar el algoritmo para este problema.
 <img width="654" height="241" alt="image" src="https://github.com/user-attachments/assets/6e90f272-17e2-4616-a469-579d92f0544a" />
 
 ## Ejercicio 3
-¿Qué valor se almacena en las variables y (de tipo int) y x (de tipo float) al ejecutar cada una de estas sentencias?
+¿Qué valor se almacena en las variables "y" (de tipo int) y "x" (de tipo float) al ejecutar cada una de estas sentencias?
 
 ### variables "y"
 
